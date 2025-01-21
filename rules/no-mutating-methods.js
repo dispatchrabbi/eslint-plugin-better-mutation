@@ -88,8 +88,8 @@ const schema = [{
 
 module.exports = {
   create,
-  schema,
   meta: {
+    schema,
     docs: {
       description: 'Forbid the use of mutating methods.',
       recommended: 'error'
